@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  padding: 10px 20px; 
+  border: 2px solid #ffcccb; 
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.key {
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.w { background-color: #FFC0CB; }
+.a { background-color: #90EE90; }
+.s { background-color: #FFA500; }
+.d { background-color: #00BFFF; }
+.j { background-color: #FFD700; }
+.k { background-color: #FF69B4; }
+.l { background-color: #87CEEB; }
+
+.key:hover {
+  transform: scale(1.2); /* Make the key slightly bigger */
+  background-color: #fff; /* Change background color */
+  color: #000; /* Change text color */
+  cursor: pointer; /* Show a pointer cursor when hovering */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+}
