@@ -1,0 +1,1 @@
+I've made this task by learning the document of the co=hrome extension guide. And by gettingt he api key for the extension ix copied the api key into javascript code but the api data is not been able to transfer to the code.
