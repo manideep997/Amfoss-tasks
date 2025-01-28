@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Guardian",
+  "version": "1.0",
+  "description": "Get real-time weather updates for any city.",
+  "permissions": ["geolocation"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
